@@ -97,9 +97,9 @@
         "description" : "Get a quote for a ccyPair-settlement-notional",
         "parameters" : [ {
           "x-key" : 1,
-          "name" : "parameter1",
+          "name" : "q",
           "in" : "query",
-          "required" : false,
+          "required" : true,
           "type" : "string"
         }, {
           "x-key" : 2,
